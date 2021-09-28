@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>vanilla SPA</title>
+	<link type="text/css" rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+	<main class="Main">
+		<header class="Header" id="header"></header>
+		<section id="content">
+			<div class="loading"></div>
+		</section>
+	</main>
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.Header {
+			margin: 0;
+			background: white;
+			width: 100%;
+			border-bottom: 1px solid #ccc;
+			padding: 1rem;
+			margin-bottom: 2rem;
+		}
+
+		.Header ul {
+			display: flex;
+		}
+
+		.Header li {
+			display: block;
+		}
+
+		.Header li a {
+			padding: 1rem;
+		}
+	</style>
+
+</body>
+
+</html>
